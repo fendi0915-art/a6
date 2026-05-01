@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<title>Fendi Violin Case | Handmade Luxury Violin Case</title>
+
+<meta name="description" content="Pure handmade violin case system. Black gold luxury design. Crafted with top layer leather and full metal hardware structure. Custom color service available.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+body{
+  margin:0;
+  background:#0b0b0b;
+  color:#eaeaea;
+  font-family:'Playfair Display', serif;
+  scroll-behavior:smooth;
+}
+
+/* NAV */
+nav{
+  position:fixed;
+  top:0;
+  width:100%;
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  padding:14px;
+  background:rgba(11,11,11,0.7);
+  backdrop-filter: blur(10px);
+  font-size:12px;
+  letter-spacing:2px;
+  z-index:10;
+}
+
+nav a{
+  color:#d4af37;
+  text-decoration:none;
+}
+
+/* SECTIONS */
+section{
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:80px 20px;
+}
+
+h1,h2{
+  font-family:'Cinzel', serif;
+  letter-spacing:3px;
+  margin:0;
+}
+
+h1{
+  font-size:64px;
+  color:#d4af37;
+  animation:glow 4s ease-in-out infinite;
+}
+
+@keyframes glow{
+  0%,100%{text-shadow:0 0 10px rgba(212,175,55,0.2);}
+  50%{text-shadow:0 0 25px rgba(212,175,55,0.5);}
+}
+
+h2{
+  font-size:32px;
+  color:#d4af37;
+}
+
+p{
+  max-width:720px;
+  line-height:1.8;
+  color:#cfcfcf;
+}
+
+/* CARD */
+.card{
+  border:1px solid rgba(212,175,55,0.25);
+  padding:26px;
+  max-width:720px;
+  margin-top:20px;
+  transition:0.4s;
+  background:rgba(255,255,255,0.02);
+}
+
+.card:hover{
+  transform:translateY(-8px);
+  border-color:#d4af37;
+  box-shadow:0 10px 30px rgba(212,175,55,0.15);
+}
+
+.btn{
+  display:inline-block;
+  margin-top:15px;
+  padding:14px 28px;
+  border:1px solid #d4af37;
+  color:#d4af37;
+  text-decoration:none;
+  transition:0.4s;
+}
+
+.btn:hover{
+  background:#d4af37;
+  color:#0b0b0b;
+}
+
+/* COLORS */
+.orange{color:#ff9b4a;}
+.grey{color:#b0b0b0;}
+.gold{color:#d4af37;}
+
+.bg-orange{background:radial-gradient(circle at top,#1a120d,#0b0b0b);}
+.bg-grey{background:radial-gradient(circle at top,#151515,#0b0b0b);}
+.bg-gold{background:radial-gradient(circle at top,#1a1610,#0b0b0b);}
+
+.fade{
+  opacity:0;
+  transform:translateY(40px);
+  transition:1s ease;
+}
+
+.fade.show{
+  opacity:1;
+  transform:translateY(0);
+}
+
+.float{
+  animation:float 5s ease-in-out infinite;
+}
+
+@keyframes float{
+  0%,100%{transform:translateY(0);}
+  50%{transform:translateY(-10px);}
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#home">HOME</a>
+  <a href="#handmade">HANDMADE</a>
+  <a href="#orange">ORANGE</a>
+  <a href="#grey">GREY</a>
+  <a href="#gold">GOLD</a>
+  <a href="#custom">CUSTOM</a>
+  <a href="#order">ORDER</a>
+</nav>
+
+<!-- HERO -->
+<section id="home">
+  <div class="fade float">
+    <h1>Fendi</h1>
+    <p>VIOLIN CASE · BLACK GOLD · PURE HANDMADE SYSTEM</p>
+  </div>
+</section>
+
+<!-- HANDMADE -->
+<section id="handmade">
+  <div class="fade">
+    <h2 class="gold">PURE HANDMADE</h2>
+
+    <p>
+      每一只琴盒皆由工匠手工製作，沒有兩只完全相同。
+    </p>
+
+    <p>
+      嚴選最高等級頭層牛皮製作，僅使用天然原皮最完整部位。  
+      一隻牛僅能製作一只琴盒，全程手工拉皮成形，工序耗時且不可複製。
+    </p>
+
+    <p>
+      全金屬五金結構設計，包括拉鍊與背帶系統，  
+      採用非塑膠金屬件，確保耐用性與高端質感一致性。
+    </p>
+  </div>
+</section>
+
+<!-- ORANGE -->
+<section id="orange" class="bg-orange">
+  <div class="fade">
+    <h2 class="orange">ARTISTIC ORANGE</h2>
+    <p>
+      為情緒與舞台而生的琴盒。  
+      溫度與張力完整保留。
+    </p>
+
+    <div class="card">
+      🟧 愛馬仕橘版本<br><br>
+      <b class="orange">$42,000</b><br>
+      Emotion-driven craftsmanship<br>
+      <a class="btn" href="https://line.me/ti/p/fendi-chang">ORDER</a>
+    </div>
+  </div>
+</section>
+
+<!-- GREY -->
+<section id="grey" class="bg-grey">
+  <div class="fade">
+    <h2 class="grey">PROFESSIONAL GREY</h2>
+    <p>
+      冷靜、精準、結構導向。  
+      專業演奏者設計。
+    </p>
+
+    <div class="card">
+      ◼ 太空灰版本<br><br>
+      <b class="grey">$42,000</b><br>
+      Precision performance design<br>
+      <a class="btn" href="https://line.me/ti/p/fendi-chang">ORDER</a>
+    </div>
+  </div>
+</section>
+
+<!-- GOLD -->
+<section id="gold" class="bg-gold">
+  <div class="fade">
+    <h2 class="gold">LUXURY GOLD</h2>
+    <p>
+      身份象徵與收藏級工藝。  
+      不是產品，是品味的證明。
+    </p>
+
+    <div class="card">
+      <span style="color:#d4af37;">■</span> 芬迪黃版本<br><br>
+      <b class="gold">$42,000</b><br>
+      Limited handcrafted edition<br>
+      <a class="btn" href="https://line.me/ti/p/fendi-chang">ORDER</a>
+    </div>
+  </div>
+</section>
+
+<!-- CUSTOM COLOR -->
+<section id="custom">
+  <div class="fade">
+    <h2 class="gold">CUSTOM COLOR</h2>
+
+    <p>
+      除標準三色外，提供專屬客製化顏色訂製服務。  
+      可依個人風格、舞台需求或收藏偏好進行專屬調色。
+    </p>
+
+    <p>
+      每件客製作品皆為獨立製作流程，需對應專屬選材與手工上色工序。
+    </p>
+  </div>
+</section>
+
+<!-- ORDER -->
+<section id="order">
+  <div class="fade">
+    <h2 class="gold">ORDER</h2>
+
+    <p>
+      Instagram 追蹤＋按讚最新貼文，留言「Fendi」即可獲得 9 折專屬折扣碼
+    </p>
+
+    <a class="btn" href="https://line.me/ti/p/fendi-chang">LINE: fendi-chang</a>
+
+    <p style="margin-top:30px; font-size:13px; color:#999; line-height:2;">
+      CONNECT<br><br>
+
+      FB: 張絲媛<br>
+      LINE: fendi-chang<br>
+      IG: ssuyuan_chang_fendi<br>
+      THREADS: ssuyuan_chang_fendi<br><br>
+
+      CONTACT FOR PURCHASE & CUSTOM REQUEST<br>
+      FOR CUSTOM COLOR / PERSONALIZED DESIGN AVAILABLE
+    </p>
+  </div>
+</section>
+
+<script>
+const items=document.querySelectorAll('.fade');
+
+function reveal(){
+  const vh=window.innerHeight;
+
+  items.forEach(el=>{
+    const top=el.getBoundingClientRect().top;
+    if(top<vh-80){
+      el.classList.add('show');
+    }
+  });
+}
+
+window.addEventListener('scroll',reveal);
+window.addEventListener('load',reveal);
+</script>
+
+</body>
+</html>
